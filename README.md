@@ -1,6 +1,7 @@
+# Microserviço: Let Me Sea
+
 Componente A que representa o front-end da aplicação Let Me Sea, construído como parte do MVP da Sprint 3 da Pós Graduação em Engenharia de Software (PUC-RIO).
 
----
 ## Como executar
 
 Basta fazer o download do projeto e abrir o arquivo index.html no seu browser.
