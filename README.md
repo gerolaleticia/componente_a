@@ -1,5 +1,9 @@
 # Microserviço: Let Me Sea
 
+<p float="left">
+
+ <img src="https://user-images.githubusercontent.com/59067501/267109015-98556724-6c57-4212-9d5f-36a9a0b20426.jpg" width="600" />
+
 Componente A que representa o front-end da aplicação Let Me Sea, construído como parte do MVP da Sprint 3 da Pós Graduação em Engenharia de Software (PUC-RIO).
 
 Este componente interaje com outros dois microserviços (components B e C), duas APIs que servem rotas diversas para o componente A. 
