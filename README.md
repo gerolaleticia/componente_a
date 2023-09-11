@@ -2,6 +2,10 @@
 
 Componente A que representa o front-end da aplicação Let Me Sea, construído como parte do MVP da Sprint 3 da Pós Graduação em Engenharia de Software (PUC-RIO).
 
+Este componente interaje com outros dois microserviços (components B e C), duas APIs que servem rotas diversas para o componente A. 
+
+Não há uso de APIs externas e todos os microserviços são orquestrados em Docker. 
+
 ## Como executar
 
 Basta fazer o download do projeto e abrir o arquivo index.html no seu browser.
