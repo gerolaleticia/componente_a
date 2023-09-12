@@ -48,6 +48,28 @@ const postItem = async (inputPred, inputSwell, inputWind, inputSize) => {
     });
 }
 
+/*
+  --------------------------------------------------------------------------------------
+  Função para atualizar um item na lista do servidor via requisição PUT
+  --------------------------------------------------------------------------------------
+*/
+const putItem = async (inputPred, inputSwell, inputWind, inputSize) => {
+  const formData = new FormData();
+  formData.append('nome_praia', inputPred);
+  formData.append('ondulacao', inputSwell);
+  formData.append('vento', inputWind);
+  formData.append('tamanho_onda', inputSize);
+
+  let url = 'http://127.0.0.1:5002/produto';
+  fetch(url, {
+    method: 'put',
+    body: formData
+  })
+    .then((response) => response.json())
+    .catch((error) => {
+      console.error('Error:', error);
+    });
+}
 
 /*
   --------------------------------------------------------------------------------------
